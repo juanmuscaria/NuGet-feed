@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>DSMFramework</id>
+    <version>0.0.2</version>
+    <authors>DSMFramework</authors>
+    <licenseUrl>http://unlicense.org/</licenseUrl>
+    <projectUrl>https://github.com/juanmuscaria/DSMFramework</projectUrl>
+    <description>Duskers Simple Modding Framework</description>
+    <dependencies>
+      <group targetFramework=".NETFramework3.5">
+        <dependency id="BepInEx.Core" version="5.4.21" exclude="Build,Analyzers" />
+        <dependency id="BepInEx.PluginInfoProps" version="1.1.0" exclude="Build,Analyzers" />
+        <dependency id="UnityEngine.Modules" version="5.3.4" exclude="Runtime,Build,Native,Analyzers,BuildTransitive" />
+        <dependency id="duskers-linux-steam" version="1.205.0" exclude="Runtime,Build,Native,Analyzers,BuildTransitive" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework3.5" />
+    </frameworkAssemblies>
+  </metadata>
+</package>
